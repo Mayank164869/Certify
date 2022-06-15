@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontstyle.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><i >Certify</i></a>
+        <div id="menu-bar" ></div>
+        <nav class="navbar">
+            <a href="front.html">home</a>
+        </nav> 
+    </header>
+    
+    <section class="home" id="home">
+        <div class="content">
+            <marquee behavior = "alternate" loop = "500" scrollamount = "30ms">
+                <p>Most popular certificate generator on the Internet</p>
+                </marquee>
+        </div>  
+    </section>
+
+    <section class="popular" id="popular">
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="/images/img1.jpg" alt="" id = "img1">
+                <h3>tasty burger</h3>
+                <div class="stars">
+                </div>
+                <a href="index.html" class="btn">Customize</a>
+            </div>
+            <div class="box">
+                <img src="/images/img2.jpg" alt="">
+                <h3>tasty cakes</h3>
+                <div class="stars">
+                </div>
+                <a href="#" class="btn">Customize</a>
+            </div>
+            <div class="box">
+                <img src="images/img3.jpg" alt="">
+                <h3>tasty sweets</h3>
+                <div class="stars">
+                </div>
+                <a href="#" class="btn">Customize</a>
+            </div>
+            <div class="box">
+                <img src="images/img4.jpg" alt="">
+                <h3>tasty cupcakes</h3>
+                <div class="stars">
+                </div>
+                <a href="#" class="btn">Customize</a>
+            </div>
+            <div class="box">
+                <img src="images/img5.jpg" alt="">
+                <h3>cold drinks</h3>
+                <div class="stars">
+                </div>
+                <a href="#" class="btn">Customize</a>
+            </div>
+            <div class="box">
+                <img src="images/img6.jpg" alt="">
+                <h3>cold ice-cream</h3>
+                <div class="stars">
+                </div>
+                <a href="#" class="btn">Customize</a>
+            </div>
+            <div class="box">
+                <img src="images/img7.jpg" alt="">
+                <h3>cold drinks</h3>
+                <div class="stars">
+                </div>
+                <a href="#" class="btn">Customize</a>
+            </div>
+            <div class="box">
+                <img src="images/img8.jpg" alt="" id="img8">
+                <h3>cold ice-cream</h3>
+                <div class="stars">
+                </div>
+                <a href="#" class="btn">Customize</a>
+            </div>
+            <div class="box">
+                <img src="images/img9.jpg" alt="" id="img9">
+                <h3>cold ice-cream</h3>
+                <div class="stars">
+                </div>
+                <a href="#" class="btn">Customize</a>
+            </div>
+        </div>
+    </section>
+    <script>
+        img = document.getElementById("img1");
+        function enlargeImg() {
+            img.style.width = "60%";
+            img.style.height = "auto";
+            img.style.transition = "width 0.5s ease";
+        }
+        function resetImg() {
+            img.style.width = "40%";
+            img.style.height = "auto";
+            img.style.transition = "width 0.5s ease";
+        }
+    </script>
+</body>
+</html>

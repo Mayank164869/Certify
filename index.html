@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i >Certify</i></a>
+        <div id="menu-bar" ></div>
+        <nav class="navbar">
+            <a href="front.html"><b>HOME</b></a>
+        </nav> 
+    </header>
+
+    <main>
+        <span>Generate your Certificate</span>
+        <label for="name">Type your name</label>
+        <input required type="text" name="Name" id="name" autocomplete="name" >
+        <button id="submit">Get Certificate</button>
+    </main>
+    <iframe src="" id ="mypdf" height = "600" width = "700" frameborder="0"></iframe>
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="filesaver.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
